@@ -1,0 +1,21 @@
+﻿<title>Дурнева А.Д.</title>
+<html> <head>
+<title>array</title>
+</head> <body>
+<script language="JavaScript">
+function lesson(){
+les = new Array("Физика","Химия","Алгебра","Геометрия","Астрономия","История","Литература","Русский","Английский","ОБЖ");
+accurate = new Array(); 
+accurate=les.slice(5,10);
+document.write("Точные науки: "+accurate+"<br>");
+humanities = new Array(); 
+humanities=les.slice(0,5);
+document.write("Гуманитарные науки: "+humanities+"<br>");
+}
+year = new Array("декабрь","январь","февраль","март","апрель","май",
+"июнь","июль","август","сентябрь","октябрь","ноябрь");
+summer = new Array(); //летние месяцы
+summer=year.slice(6,9);
+document.write("Летние месяца: "+summer+"<br>");
+lesson();
+</script> </body> </html> 
